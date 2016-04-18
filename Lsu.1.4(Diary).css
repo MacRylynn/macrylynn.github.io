@@ -1,0 +1,72 @@
+.Lsu_2-1 {
+    background-image: url(139-141205150F6.jpg);
+    background-size: cover;
+    font-family: "Microsoft YaHei";
+}
+
+.Lsu_2-2 {
+    width: 1000px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.Lsu_2-3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 300%;
+    font-family: STCaiyun;
+    text-shadow: 1px 1px gray;
+}
+
+
+}
+.Lsu_2-4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Lsu_2-4 td {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid gray;
+    background-color: #FF00FF;
+    border-radius: 15px;
+    font-variant: small-caps;
+    transition: 0.5s;
+}
+.Lsu_2-4 td:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 2px 2px 3px gray;
+}
+.Lsu_2-5 {
+    width: 100px;
+    height: 25px;
+    float: right;
+    background-color: #FF4500;
+    box-sizing: border-box;
+    transition: .2s;
+    border-radius: 6px;
+    text-align: center;
+}
+.Lsu_2-5:active {
+    height: 250px;
+    color: transparent;
+}
+
+.Lsu_2-6 {
+    width: 100px;
+    height: 25px;
+    position:absolute;
+    right:0px;
+    top: 40px;
+    background-color: #FF4500;
+    box-sizing: border-box;
+    transition: .2s;
+    border-radius: 6px;
+    text-align: center;
+}
+.Lsu_2-6::selection{
+    color: #FF4500;
+}

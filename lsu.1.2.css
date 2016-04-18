@@ -1,0 +1,140 @@
+.p1 {
+    text-align: center;
+    padding: 0;
+}
+
+.Lsu_1 {
+    background-image: url(1_120319200728_1.jpg);
+    background-size: cover;
+    font-family: "Microsoft YaHei";
+}
+
+.Lsu_2 {
+    box-sizing: border-box;
+    width: 55px;
+    border-radius: 3px;
+    height: 25px;
+    float: right;
+    line-height: 0%;
+    transition: 0.4s;
+}
+
+.Lsu_2:hover {
+    box-shadow: 1.5px 1.5px 5px gray;
+    background-color: skyblue;
+    transform: scale(1.03, 1.03);
+}
+
+.p_1 {
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.Lsu_3 {
+    box-sizing: border-box;
+    width: 55px;
+    border-radius: 3px;
+    height: 25px;
+    float: right;
+    line-height: 0%;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.Lsu_3:hover {
+    box-shadow: 1.5px 1.5px 5px gray;
+    background-color: skyblue;
+    transform: scale(1.03, 1.03);
+}
+
+.p_2 {
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.Lsu_4 {
+    border: 2px solid gray;
+    margin: 90px 200px ;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px gray;
+    float: left;
+    width: 600px;
+    height: 300px;
+    transition: 0.4s;
+}
+
+.Lsu_4:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.p_3 {
+    text-align: center;
+    font-size: 600%;
+}
+
+.p_4 {
+    text-align: center;
+    font-size: 150%;
+    margin-top: -100px;
+    font-variant: small-caps;
+}
+
+.Lsu_5 {
+    border: 1px;
+    margin: 25px 205px;
+    float: left;
+    width: 600px;
+}
+
+.Lsu_5 td {
+    width: 120px;
+    box-sizing: border-box;
+    font-variant: small-caps;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.Lsu_5 td:hover {
+    border-radius: 4px;
+    background-color: skyblue;
+    box-shadow: 2px 2px 2px gray;
+    transform: scale(1.03, 1.03);
+}
+
+.Lsu_6 {
+    width: 100px;
+    height: 25px;
+    background-color: #fff;
+    margin: 195px 180px;
+    float: left；
+}
+
+.Lsu_7 {
+    width: 1000px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+
+.Lsu_8 {
+     width: 120px;
+    box-sizing: border-box;
+    font-variant: small-caps;
+    text-align: center;
+    transition: 0.2s;
+    position: absolute;
+    left: 440px;
+    top:470px;
+    
+}
+.Lsu_8:hover{
+    border-radius: 4px;
+    background-color: skyblue;
+    box-shadow: 2px 2px 2px gray;
+    transform: scale(1.03, 1.03);
+    
+}

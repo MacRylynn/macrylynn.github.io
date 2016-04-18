@@ -1,0 +1,164 @@
+.Lsu_5-1 {
+    background-image: url(eaf81a4c510fd9f906eb1b0c272dd42a2934a4d3.jpg);
+    background-size: cover;
+    font-family: "Microsoft YaHei";
+}
+
+.Lsu_5-2 {
+    width: 1000px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+}
+
+.Lsu_5-3 {
+    width: 150px;
+    height: 25px;
+    background-color: #8A2BE2;
+    position: absolute;
+    transition: 0.4s;
+    border-radius: 6px;
+    box-sizing: border-box;
+    left: 100px;
+    top: 100px;
+}
+
+@keyframes mov2 {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 880px;
+    }
+}
+
+.Lsu_5-3:hover {
+    height: 400px;
+    transform: scale(1.03, 1.03);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.Lsu_5-3：hover {
+    height: 400px;
+}
+
+.Lsu_5-4 {
+    width: 150px;
+    height: 25px;
+    background-color: #00FFFF;
+    position: absolute;
+    transition: 0.4s;
+    border-radius: 6px;
+    box-sizing: border-box;
+    top: 30px;
+}
+
+.Lsu_5-4:active {
+    transform: scale(1.03, 1.03);
+    box-shadow: 2px 2px 3px gray;
+    height: 400px;
+}
+
+.Lsu_5-5 {
+    width: 150px;
+    height: 25px;
+    background-color: #FF6347;
+    position: absolute;
+    transition: 0.4s;
+    border-radius: 6px;
+    box-sizing: border-box;
+    left: 250px;
+    top: 25px;
+}
+
+.Lsu_5-5::selection {
+    color: #FF6347;
+}
+
+.Lsu_5-6 {
+    width: 150px;
+    height: 25px;
+    background-color: #006400;
+    position: absolute;
+    border-radius: 6px;
+    box-sizing: border-box;
+    left: 20px;
+    top: 200px;
+}
+
+.Lsu_5-6:active {
+    color: transparent;
+    width: 600px;
+    height: 75px;
+    font-size: 350%
+}
+
+.Lsu_5-6:active:before {
+    content: "Haha~ you idiot~!!!";
+    color: aliceblue;
+    border: 5px dotted;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Lsu_5-7 {
+    width: 150px;
+    height: 25px;
+    background-color: #8B008B;
+    position: absolute;
+    border-radius: 6px;
+    box-sizing: border-box;
+    top: 290px;
+}
+
+.Lsu_5-7:active {
+    animation: mov1 1s infinite;
+}
+
+@keyframes mov1 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(200px) translateY(-15px) rotate(-180deg);
+        background-color: white;
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+.Lsu_5-8 {
+     width: 150px;
+    height: 25px;
+    background-color: #6495ED;
+    position: absolute;
+    border-radius: 6px;
+    box-sizing: border-box;
+    left:200px;
+    top:170px;
+}
+.Lsu_5-8:active{
+    background-image: url(heart.png);
+    color:transparent;
+    width: 400px;
+    height: 350px;
+}
+.Lsu_5-8:active:before{
+    content: "加油~！";
+    color: black;
+    font-size: 600%;
+}
+
+.Lsu_5-9 {
+    color: aliceblue;
+    position: absolute;
+    margin-left:500px;
+    margin-top: 100px;
+     
+}
+
