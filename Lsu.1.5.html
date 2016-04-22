@@ -7,6 +7,7 @@
     <title> Fresh stuff</title>
     <link rel="stylesheet" href="Lsu.1.5.css" type="text/css">
     <script src="Lsu.1.5.js"></script>
+
 </head>
 
 <body>
@@ -21,19 +22,37 @@
             <div class="Lsu_5-9">
                 <input id="button1" type="button" onclick="function1()" value="千万别点!!" />
             </div>
-            <div id="Lsu_5-10">试着点击一下*2</div>
+            <div id="Lsu_5-10">试着点击一下*2
+                <script src="jquery-1.12.3.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        $("button").click(function () {
+                            $("#Lsu_5-10").animate({
+                                opacity: '0.5',
+                                height: '300px',
+                                width: '150px'
+                            });
+                            $("#Lsu_5-10").animate({
+                                fontSize: '2em'
+                            });
+                        });
+                    });
+                </script>
+                <button>开始动画</button>
+
+
+
+            </div>
             <div class="Lse_5-11">
+
                 <div class="Lse_5-11_1"></div>
                 <div class="Lse_5-11_2"></div>
                 <div class="Lse_5-11_3"></div>
                 <div class="Lse_5-11_4"></div>
-                <div class="Lse_5-11_5">
+                <div class="Lsee_5-11_5">
                     <div class="Lse_5-11_6"></div>
                 </div>
-
-
             </div>
-
         </div>
     </div>
 </body>
