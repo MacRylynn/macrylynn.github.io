@@ -186,6 +186,7 @@ box-sizing: border-box;
     top: 200px;
     border-radius: 20px;
     background-color: #fff;
+    opacity: 0;
 }
 
 .Lse_5-11_1 {
@@ -226,6 +227,7 @@ box-sizing: border-box;
     left: 10px;
     top:50px;
     border-radius: 5px;
+    color: aliceblue;
 }
 
 .Lse_5-11_5 {
@@ -248,4 +250,29 @@ box-sizing: border-box;
     left: 2.5px;
     top:2.5px
    
+}
+
+
+
+#go {
+     width: 75px;
+    height: 25px;
+    background-color: #FF8C00;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#hah {
+    position: absolute;
+    top:30px;
+    right: 50px;
+    
+}
+
+#gone {
+    width: 75px;
+    height: 25px;
+    background-color:#FF8C00;
+    border-radius: 6px;
+    box-sizing: border-box;
 }

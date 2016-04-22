@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=yes">
+
     <title> Fresh stuff</title>
     <link rel="stylesheet" href="Lsu.1.5.css" type="text/css">
     <script src="Lsu.1.5.js"></script>
@@ -22,37 +21,61 @@
             <div class="Lsu_5-9">
                 <input id="button1" type="button" onclick="function1()" value="千万别点!!" />
             </div>
-            <div id="Lsu_5-10">试着点击一下*2
-                <script src="jquery-1.12.3.min.js"></script>
-                <script>
-                    $(document).ready(function () {
-                        $("button").click(function () {
-                            $("#Lsu_5-10").animate({
-                                opacity: '0.5',
-                                height: '300px',
-                                width: '150px'
-                            });
-                            $("#Lsu_5-10").animate({
-                                fontSize: '2em'
-                            });
-                        });
-                    });
-                </script>
-                <button>开始动画</button>
-
-
-
-            </div>
+            <div id="Lsu_5-10">试着点击一下*2</div>
             <div class="Lse_5-11">
-
                 <div class="Lse_5-11_1"></div>
                 <div class="Lse_5-11_2"></div>
                 <div class="Lse_5-11_3"></div>
-                <div class="Lse_5-11_4"></div>
-                <div class="Lsee_5-11_5">
-                    <div class="Lse_5-11_6"></div>
+                <div class="Lse_5-11_4">
+                    Welcome
+                    <br>to Lsu's
+                    <br>home!
+                    <br>
+                    <br>It's just
+                    <br>for fun!!</div>
+                <div class="Lse_5-11_5">
+                    <div class="Lse_5-11_6">
+                    </div>
                 </div>
+                <script src="jquery-1.12.3.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        $("#go").click(function () {
+                            $(".Lse_5-11").animate({
+                                opacity: '1',
+
+                            }, "slow");
+                            $(".Lse_5-11").animate({
+                                opacity: '0.2',
+
+                            }, "slow");
+
+                            $(".Lse_5-11").animate({
+                                opacity: '1',
+                                fontSize: '2em',
+                            }, "slow");
+
+                        });
+                        $("#gone").click(function () {
+                            $(".Lse_5-11").animate({
+                                opacity: '0',
+                                fontSize: '0',
+                            }, "slow");
+                        })
+                    });
+                </script>
             </div>
+            <table>
+                <tr id="hah">
+                    <td>
+                        <button id="go">开始</button>
+                    </td>
+                    <td>
+                        <button id="gone">消失</button>
+                    </td>
+
+                </tr>
+            </table>
         </div>
     </div>
 </body>
