@@ -132,33 +132,118 @@
         transform: translateX(0px);
     }
 }
+
 .Lsu_5-8 {
-     width: 150px;
+    width: 150px;
     height: 25px;
     background-color: #6495ED;
     position: absolute;
     border-radius: 6px;
     box-sizing: border-box;
-    left:200px;
-    top:170px;
+    left: 200px;
+    top: 170px;
 }
-.Lsu_5-8:active{
+
+.Lsu_5-8:active {
     background-image: url(heart.png);
-    color:transparent;
+    color: transparent;
     width: 400px;
     height: 350px;
 }
-.Lsu_5-8:active:before{
+
+.Lsu_5-8:active:before {
     content: "加油~！";
     color: black;
     font-size: 600%;
 }
 
 .Lsu_5-9 {
-    color: aliceblue;
     position: absolute;
-    margin-left:500px;
-    margin-top: 100px;
-     
+    margin-left: 380px;
+    margin-top: 120px;
 }
 
+#button1 {
+    width: 150px;
+    height: 25px;
+    background-color: #A52A2A;
+    border-radius: 6px;
+}
+#Lsu_5-10 {
+    position:absolute;
+    left:200px;
+    top:250px;
+}
+
+.Lse_5-11 {
+   width:200px;
+box-sizing: border-box;
+   height:400px;
+   position:absolute;
+    left: 500px;
+    top: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.Lse_5-11_1 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left:95px;
+    top:15px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.Lse_5-11_2 {
+    width: 40px;
+    height: 6px;
+    position: absolute;
+    left:80px;
+    top:30px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.Lse_5-11_3 {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left:65px;
+    top:29px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.Lse_5-11_4 {
+    width:180px;
+    height: 300px;
+    position: absolute;
+    background-color: gray;
+    left: 10px;
+    top:50px;
+    border-radius: 5px;
+}
+
+.Lse_5-11_5 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 40px;
+    background-color:silver;
+    left: 80px;
+    bottom: 5px
+        
+}
+
+.Lse_5-11_6 {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 35px;
+    position: absolute;
+    left: 2.5px;
+    top:2.5px
+   
+}
