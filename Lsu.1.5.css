@@ -220,7 +220,7 @@ box-sizing: border-box;
     width:180px;
     height: 300px;
     position: absolute;
-    background-color: gray;
+    background-color: black;
     left: 10px;
     top:50px;
     border-radius: 5px;
