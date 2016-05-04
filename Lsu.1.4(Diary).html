@@ -1,39 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>
-        Lsu's learing diary
+    <meta charset="UTF-8">
+    <title> Lsu's photos
     </title>
-
     <link rel="stylesheet" href="Lsu.1.4(Diary).css" type="text/css">
+    <script src="jquery-1.12.3.min.js"></script>>
+    <script src="Lsu.1.4.js"></script>
 </head>
 
-<body class="Lsu_2-1">
-    <!--   背景和总字体定义-->
-    <div class="Lsu_2-2">
-        <!--整体页面大小和边距-->
-        <p class="Lsu_2-3"> Lsu's learning diary</p>
-        <!-- 标题-->
-        <div class="Lsu_2-4">
-            <!--表格主题-->
-            <table>
-                <tr>
-                    <td> Html</td>
-                    <td>Css</td>
-                    <td>JavaScript</td>
-                    <td>Some More...</td>
-                </tr>
-                <tr>
-                    <td>Postgraduate examination（Math）</td>
-                    <td>Postgraduate examination（English）</td>
-                    <td>Postgraduate examination（Professional course）</td>
-                    <td>Postgraduate examination（politics）</td>
-                </tr>
-            </table>
-        </div>
+<body onselectstart="return false">
+    <div class="wrap" id="wrap">
+        <div id="photo_n" class="photo photo_center photo_front" onclick="turn(this)">
 
+            <div class="photo-warp">
+
+                <div class="side side-front">
+                    <p class=image><img src="muban"></p>
+                    <p class="caption ">caption</p>
+                </div>
+                <div class="side side-back">
+                    <p class="desc">desc</p>
+                </div>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>

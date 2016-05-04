@@ -1,6 +1,4 @@
 .Lsu_5-1 {
-    background-image: url(eaf81a4c510fd9f906eb1b0c272dd42a2934a4d3.jpg);
-    background-size: cover;
     font-family: "Microsoft YaHei";
 }
 
@@ -169,19 +167,20 @@
     background-color: #A52A2A;
     border-radius: 6px;
 }
+
 #Lsu_5-10 {
-    position:absolute;
-    left:200px;
-    top:250px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
     width: 100px;
     height: 50px;
 }
 
 .Lse_5-11 {
-   width:200px;
-box-sizing: border-box;
-   height:400px;
-   position:absolute;
+    width: 200px;
+    box-sizing: border-box;
+    height: 400px;
+    position: absolute;
     left: 500px;
     top: 200px;
     border-radius: 20px;
@@ -193,8 +192,8 @@ box-sizing: border-box;
     width: 10px;
     height: 10px;
     position: absolute;
-    left:95px;
-    top:15px;
+    left: 95px;
+    top: 15px;
     border-radius: 10px;
     background-color: black;
 }
@@ -203,8 +202,8 @@ box-sizing: border-box;
     width: 40px;
     height: 6px;
     position: absolute;
-    left:80px;
-    top:30px;
+    left: 80px;
+    top: 30px;
     border-radius: 5px;
     background-color: black;
 }
@@ -213,19 +212,19 @@ box-sizing: border-box;
     width: 8px;
     height: 8px;
     position: absolute;
-    left:65px;
-    top:29px;
+    left: 65px;
+    top: 29px;
     border-radius: 8px;
     background-color: black;
 }
 
 .Lse_5-11_4 {
-    width:180px;
+    width: 180px;
     height: 300px;
     position: absolute;
     background-color: black;
     left: 10px;
-    top:50px;
+    top: 50px;
     border-radius: 5px;
     color: aliceblue;
 }
@@ -235,10 +234,9 @@ box-sizing: border-box;
     height: 40px;
     position: absolute;
     border-radius: 40px;
-    background-color:silver;
+    background-color: silver;
     left: 80px;
     bottom: 5px
-        
 }
 
 .Lse_5-11_6 {
@@ -248,14 +246,11 @@ box-sizing: border-box;
     border-radius: 35px;
     position: absolute;
     left: 2.5px;
-    top:2.5px
-   
+    top: 2.5px
 }
 
-
-
 #go {
-     width: 75px;
+    width: 75px;
     height: 25px;
     background-color: #FF8C00;
     border-radius: 6px;
@@ -264,15 +259,36 @@ box-sizing: border-box;
 
 #hah {
     position: absolute;
-    top:30px;
-    right: 50px;
-    
+    top: 30px;
+    left: 510px;
 }
 
 #gone {
     width: 75px;
     height: 25px;
-    background-color:#FF8C00;
+    background-color: #FF8C00;
     border-radius: 6px;
     box-sizing: border-box;
+}
+
+body {
+    background-image: url(eaf81a4c510fd9f906eb1b0c272dd42a2934a4d3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image {
+    
+}
+
+
+
+.photo-wrap:hover{
+    transition:(rotateY(180deg),5000);
+}
+
+
+
+.photo_front .photo-wrap {
+     transform: rotateY(0deg);
 }
