@@ -4,10 +4,12 @@
 }
 
 body {
-    background-color: #fff;
+    background-image: url(photo-bgc.jpg);
     color: #555;
     font-family: "Microsoft YaHei";
     font-size: 20px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .wrap {
@@ -16,7 +18,6 @@ body {
     position: absolute;
     top: 50%;
     margin-top: -400px;
-    background-color: #333;
     overflow: hidden;
     -webkit-perspective: 800px;
 }
@@ -29,7 +30,7 @@ body {
     top: 0;
     z-index: 1;
     box-shadow: 0 0 1px rgba(0, 0, 0, .02);
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .side {
@@ -69,6 +70,7 @@ body {
 .photo_center {
     width: 260px;
     height: 320px;
+    position: absolute;
     left: 50%;
     top: 50%;
     margin: -160px 0 0 -130px;
@@ -77,7 +79,7 @@ body {
 }
 
 .photo-warp {
-    /*    position: absolute;*/
+    position: absolute;
     width: 100%;
     height: 100%;
     -webkit-transform-style: preserve-3d;

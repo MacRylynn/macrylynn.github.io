@@ -16,7 +16,7 @@ function displayImage(data, index, div) {
     $('p.desc', div).text(data.desc);
     $('p.image img', div).attr('src', 'photos/' + data.img);
     div.attr('id', 'photo_' + index);
-    var angle = Math.random() * 50 - 25;
+    var angle = Math.random() * 50 - 50;
     div.css("transform", "rotate(" + angle + "deg)");
 }
 /*得到模板，创建模板内容，添加内容(displayImage)，并且删除模板*/
@@ -42,34 +42,19 @@ function rsort(max) {
     var n = Math.round(Math.random() * (max - 1) + 1);
     var _div = $('div.photo');
     _div.removeClass('photo_center');
-
-    //    for (var i = 0; i < _div.length; i++) {
-    //        var _div = _div[i];
-    //        _div.className = _div.className.replace(/\s*photo_center\s*/, ' ');
-    //    }
-
     $('#photo_' + n).addClass("photo_center");
     $('#photo_' + n).css("transform", "rotate(0deg)");
     _div.splice(n - 1, 1);
-    setImage();
-    //    console.log(_div[0]);
-
-    function setImage() {
-        for (var i = 0; i < _div.length; i++) {
-            var h = Math.random() * 600 - 100;
-            var w = Math.random() * 1200 - 100;
-            var allw = $('#wrap').width();
-            var allh = $('#wrap').height();
-            $(_div[i]).css("margin-top", h + 'px');
-            $(_div[i]).css("margin-left", w + 'px');
-        }
-
+    var photo_left = _div.splice(0, Math.round(_div.length / 2));
+    var photo_right = _div;
+    for (i = 0; i < photo_left.length; i++) {
+        var photo = photo_left[i];
+        photo.style.left = Math.random() * 300 - 80 + 'px';
+        photo.style.top = Math.random() * 700 - 100 + 'px';
     }
-
+    for (i = 0; i < photo_right.length; i++) {
+        var photo = photo_right[i];
+        photo.style.left = Math.random() * 350 + 800 + 'px';
+        photo.style.top = Math.random() * 700 - 100 + 'px';
+    }
 }
-
-
-
-//Left - photo.width, (wrap.width / 2 - photo.width / 2)
-//right(wrap.width / 2 + photo.width / 2), (wrap.width + photo.width / 2)
-//height    -photo.height,(wrap.height+photo.height)
